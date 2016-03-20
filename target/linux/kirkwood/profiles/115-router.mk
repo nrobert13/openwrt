@@ -22,7 +22,16 @@ define Profile/VIPER
   NAME:=Linksys E4200v2 / EA4500 (Viper)
   PACKAGES:= \
 	kmod-mwl8k kmod-usb2 kmod-usb-storage \
-	swconfig
+	swconfig luci-mod-admin-full uhttpd \
+	luci-theme-bootstrap luci-proto-ppp \
+	libiwinfo-lua luci-proto-ipv6 uhttpd-mod-ubus \
+	wpad-mini ddns-scripts luci-app-ddns \
+	luci-app-firewall bind-dig kmod-fs-ext4 \
+	kmod-usb3 kmod-tun kmod-fs-nfs nuttcp \
+	usbutils procps rsync ss tcpdump usbreset \
+	iftop netcat ebtables ebtables-utils \
+	kmod-ebtables-watchers kmod-ebtables-ipv4 \
+	iperf-mt curl mountd fdisk
 endef
 
 define Profile/VIPER/Description
