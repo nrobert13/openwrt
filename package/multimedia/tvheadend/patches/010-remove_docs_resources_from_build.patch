@@ -1,0 +1,13 @@
+Index: tvheadend/Makefile
+===================================================================
+--- tvheadend.orig/Makefile	2016-03-30 14:31:28.000000000 +0200
++++ tvheadend/Makefile	2016-03-31 22:29:32.330756599 +0200
+@@ -384,7 +384,7 @@
+ 
+ # File bundles
+ SRCS-${CONFIG_BUNDLE}     += bundle.c
+-BUNDLES-yes               += docs/html docs/docresources src/webui/static
++BUNDLES-yes               += docs/html src/webui/static
+ BUNDLES-yes               += data/conf
+ BUNDLES-${CONFIG_DVBSCAN} += data/dvb-scan
+ BUNDLES                    = $(BUNDLES-yes)
