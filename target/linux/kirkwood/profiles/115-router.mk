@@ -31,7 +31,8 @@ define Profile/VIPER
 	usbutils procps rsync ss tcpdump usbreset \
 	iftop netcat ebtables ebtables-utils \
 	kmod-ebtables-watchers kmod-ebtables-ipv4 \
-	iperf-mt curl mountd fdisk
+	iperf-mt curl mountd fdisk \
+	net-tools-netstat-mptcp
 endef
 
 define Profile/VIPER/Description
