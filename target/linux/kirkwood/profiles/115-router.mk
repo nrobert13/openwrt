@@ -32,7 +32,8 @@ define Profile/VIPER
 	iftop netcat ebtables ebtables-utils \
 	kmod-ebtables-watchers kmod-ebtables-ipv4 \
 	iperf-mt curl mountd fdisk \
-	net-tools-netstat-mptcp tcpdump-mptcp
+	net-tools-netstat-mptcp tcpdump-mptcp \
+	whois
 endef
 
 define Profile/VIPER/Description
